@@ -39,4 +39,5 @@
 	<Item Name="Get Contact(ID).vi" Type="VI" URL="../Get Contact(ID).vi"/>
 	<Item Name="newIDfinder.vi" Type="VI" URL="../newIDfinder.vi"/>
 	<Item Name="Remove UUID Contact.vi" Type="VI" URL="../Remove UUID Contact.vi"/>
+	<Item Name="PathData.ctl" Type="VI" URL="../PathData.ctl"/>
 </Library>
