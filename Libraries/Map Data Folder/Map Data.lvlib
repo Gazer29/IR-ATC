@@ -36,7 +36,6 @@
 	<Item Name="DeleteAll.vi" Type="VI" URL="../DeleteAll.vi"/>
 	<Item Name="CursorList.ctl" Type="VI" URL="../../../Controls/CursorList.ctl"/>
 	<Item Name="Save Cursors.vi" Type="VI" URL="../Save Cursors.vi"/>
-	<Item Name="PathFinder.vi" Type="VI" URL="../PathFinder.vi"/>
 	<Item Name="SearchArrayPath.vi" Type="VI" URL="../SearchArrayPath.vi"/>
 	<Item Name="Find Line.vi" Type="VI" URL="../Find Line.vi"/>
 	<Item Name="SearchArrayPathWrap.vi" Type="VI" URL="../SearchArrayPathWrap.vi"/>
@@ -45,4 +44,5 @@
 	<Item Name="Find Connection.vi" Type="VI" URL="../Find Connection.vi"/>
 	<Item Name="SwitchPostCheck.vi" Type="VI" URL="../SwitchPostCheck.vi"/>
 	<Item Name="SwitchPreCheck.vi" Type="VI" URL="../SwitchPreCheck.vi"/>
+	<Item Name="LineConnection.ctl" Type="VI" URL="../LineConnection.ctl"/>
 </Library>
