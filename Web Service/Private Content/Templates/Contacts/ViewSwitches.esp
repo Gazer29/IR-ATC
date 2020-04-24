@@ -1,0 +1,89 @@
+<%
+//
+// View.esp
+//
+// This script views the data associated with a contact.
+//
+// Inputs from the HTTP Method VI:
+//
+//		editLink:		A URL to allow the user to edit the contact.
+//		deleteLink:	A URL to allow the user to delete the contact.
+//		cancelLink:	A URL for returning back.
+//		id:				The ID of the contact being viewed.
+//		lname:			The last name for the contact.
+//		fname:			The first name for the contact.
+//		mname:		The middle name for the contact.
+//		phone:			The phone number for the contact.
+//		street:			The street address for the contact.
+//		city:				The city for the contact.
+//		state:			The state for the contact.
+//		postal:			The postal code for the contact.
+//		favorite:		1 if the contact is a favorite, 0 if not.
+//    
+// Variables are retrieved by name using the form['varname'] construct.
+// We store the retrieved values in local variables to be able to
+// use them in the rendered text as '@@varname'.
+//
+//
+var editLink = form["editLink"];
+var deleteLink = form["deleteLink"];
+var cancelLink = form["cancelLink"];
+
+var id = form["id"];
+var name = form["name"];
+var uuid = form["uuid"];
+var dest1 = form["dest1"];
+var dis = form["dis"];
+var dest2 = form["dest2"];
+var pos = form["pos"];
+var a = form["1"];
+%>
+<html>
+<title>View Switches - Address Book</title>
+<body>
+<h1>View Switch</h1>
+<table border="0">
+	<tbody>
+	<tr>
+		<td>ID:</td>
+		<td>@@id</td>
+	</tr>
+	<tr>
+		<td>Name:</td>
+		<td>@@name</td>
+	</tr>
+	<tr>
+		<td>UUID:</td>
+		<td>@@uuid</td>
+	</tr>
+	<tr>
+		<td>Destination:</td>
+		<td>@@dest1</td>
+	</tr>
+	<tr>
+		<td>Distance:</td>
+		<td>@@dis</td>
+	</tr>
+	<tr>
+		<td>Next Destination:</td>
+		<td>@@dest2</td>
+	</tr>
+	<tr>
+		<td>Position XYZ:</td>
+		<td>@@pos</td>
+	</tr>
+	<tr>
+		<td>1:</td>
+		<td>@@a</td>
+	</tr>
+	</tbody>
+</table>
+<p>
+<form action="@@deleteLink" method="post">
+	<a href="@@editLink">Edit</a>
+	<a href="@@cancelLink">Back</a>
+	<input type="submit" value="Delete" />
+</form>
+</p>
+</body>
+</html>

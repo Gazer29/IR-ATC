@@ -1,0 +1,85 @@
+<%
+//
+// Edit.esp
+//
+// This script provides editing fields for a contact. Optionally, the fields
+// can be pre-populated with data for an existing contact.
+//
+// Inputs from the HTTP Method VI:
+//
+//		cancelLink:	A URL for canceling the edit.
+//		actionLabel:	The label to display on the submit button.
+//		id:				Optional, the ID of the contact being edited to include
+//							in the form.
+//		name:			Optional, the initial last name for the contact.
+//		name:			Optional, the initial first name for the contact.
+//		uuid:		Optional, the initial middle name for the contact.
+//		dest1:			Optional, the initial dest1 number for the contact.
+//		dis:			Optional, the initial dis address for the contact.
+//		dest2:				Optional, the initial dest2 for the contact.
+//		pos:			Optional, the initial pos for the contact.
+//		postal:			Optional, the initial postal code for the contact.
+//		favorite:		Optional, 1 if the contact is a favorite, 0 if not.
+//    
+// Variables are retrieved by name using the form['varname'] construct.
+// We store the retrieved values in local variables to be able to
+// use them in the rendered text as '@@varname'.
+//
+//
+//<input type="hidden" name="id" value="@@id" />
+//<input type="hidden" name="favorite" value="@@favorite" />
+
+var cancelLink = form["cancelLink"];
+var actionLabel = form["actionLabel"];
+
+var id = form["id"];
+var name = form["name"];
+var uuid = form["uuid"];
+var dest1 = form["dest1"];
+var dis = form["dis"];
+var dest2 = form["dest2"];
+var pos = form["pos"];
+
+%>
+<html>
+<title>@@actionLabel Contact - Address Book</title>
+<body>
+<h1>@@actionLabel Contact</h1>
+<form action="/RCTrainServer/Trains/EditContact" method="post">
+<table border="0">
+	<tbody>
+	<tr>
+		<td>ID:</td>
+		<td><input name="id" value="@@id" /></td>
+	</tr>
+	<tr>
+		<td>Name:</td>
+		<td><input name="name" value="@@name" /></td>
+	</tr>
+	<tr>
+		<td>UUID:</td>
+		<td><input name="uuid" value="@@uuid" /></td>
+	</tr>
+	<tr>
+		<td>Destination:</td>
+		<td><input name="dest1" value="@@dest1" /></td>
+	</tr>
+	<tr>
+		<td>Distance:</td>
+		<td><input name="dis" value="@@dis" /></td>
+	</tr>
+	<tr>
+		<td>Destination 2:</td>
+		<td><input name="dest2" value="@@dest2" /></td>
+	</tr>
+	<tr>
+		<td>Position XYZ:</td>
+		<td><input name="pos" value="@@pos" /></td>
+	</tr>
+	</tbody>
+</table>
+<p><input type="submit" value="@@actionLabel" /></p>
+</form>
+<p><a href="@@cancelLink">Cancel</a></p>
+</body>
+</html>

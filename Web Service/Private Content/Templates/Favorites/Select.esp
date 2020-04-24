@@ -1,0 +1,58 @@
+<%
+//
+// Select.esp
+//
+// This script presents a list of contacts with checkboxes to mark favorites.
+//
+// Inputs from the HTTP Method VI:
+//
+//		length:			The number of contacts in the list.
+//		sortMode:		The number of the field used to sort the list.
+//		ascending:	1 if the list is in ascending order, 0 if not.
+//		id#:				The ID of the #th contact.
+//		lname#:		The last name of the #th contact.
+//		fname#:		The first name of the #th contact.
+//		mname#:		The middle name of the #th contact.
+//		phone#:		The phone number of the #th contact.
+//		street#:		The street address of the #th contact.
+//		city#:			The city of the #th contact.
+//		state#:			The state of the #th contact.
+//		postal#:		The postal code of the #th contact.
+//
+include("../Common/Common.ejs"); // Include paths are relative to the ESP file.
+var length = GetNumberOfContacts();
+%>
+<html>
+<title>Mark Favorites - Address Book</title>
+<body>
+<h1>Mark Favorites</h1>
+<form action="/AddressBook/Favorites/MarkFavorites" method="post">
+<table border="1">
+	<thead>
+		<tr>
+			<th>&nbsp;</th>
+			<% WriteListHeader("/AddressBook/Favorites/?Select=1&amp;"); %>
+		</tr>
+	</thead>
+	<tbody>
+<%
+	// Generate a row for each contact.
+    for (var i = 0; i < length; i++)
+    {
+		var id = GetContactID(i);
+%>    
+		<tr>
+			<td><input type="checkbox" name="mark@@id" value="1" /></td>
+			<% WriteContactData(i); %>
+		</tr>
+<%  
+    }
+%>
+	</tbody>
+</table>
+<br />
+<input type="submit" value="Mark Favorites" />
+</form>
+<p><a href="/AddressBook/Favorites/">Back</a></p>
+</body>
+</html>
