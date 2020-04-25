@@ -34,7 +34,7 @@
 	<Item Name="Save.vi" Type="VI" URL="../Save.vi"/>
 	<Item Name="Sort Contacts.vi" Type="VI" URL="../Sort Contacts.vi"/>
 	<Item Name="DeleteAll.vi" Type="VI" URL="../DeleteAll.vi"/>
-	<Item Name="CursorList.ctl" Type="VI" URL="../../../Controls/CursorList.ctl"/>
+	<Item Name="CursorList.ctl" Type="VI" URL="../CursorList.ctl"/>
 	<Item Name="Save Cursors.vi" Type="VI" URL="../Save Cursors.vi"/>
 	<Item Name="SearchArrayPath.vi" Type="VI" URL="../SearchArrayPath.vi"/>
 	<Item Name="Find Line.vi" Type="VI" URL="../Find Line.vi"/>
