@@ -274,6 +274,9 @@
 		<Item Name="OC Files" Type="Folder" URL="../OC Files">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="builds" Type="Folder" URL="../builds">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -362,6 +365,11 @@
 				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+			</Item>
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="MGI Is Runtime.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Is Runtime.vi"/>
 			</Item>
 			<Item Name="ws_runtime.dll" Type="Document" URL="ws_runtime.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -370,12 +378,33 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="RC Trains Server Installer" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">RC Train Server</Property>
+			<Item Name="IR-ATC Installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">IR-ATC</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{4D2181AE-F3D8-4856-9CDA-A75A850EEA58}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="Destination[0].unlock" Type="Bool">true</Property>
+				<Property Name="Destination[1].name" Type="Str">OC Files</Property>
+				<Property Name="Destination[1].parent" Type="Str">{4D2181AE-F3D8-4856-9CDA-A75A850EEA58}</Property>
+				<Property Name="Destination[1].tag" Type="Str">{B600E0D4-53EB-4A91-898B-C7F3E3DCF68B}</Property>
+				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[1].unlock" Type="Bool">true</Property>
+				<Property Name="Destination[2].name" Type="Str">Saved Data</Property>
+				<Property Name="Destination[2].parent" Type="Str">{4D2181AE-F3D8-4856-9CDA-A75A850EEA58}</Property>
+				<Property Name="Destination[2].tag" Type="Str">{21E80CC2-71A1-466C-AD85-CF34AE72DA42}</Property>
+				<Property Name="Destination[2].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[2].unlock" Type="Bool">true</Property>
+				<Property Name="Destination[3].name" Type="Str">TrainControl</Property>
+				<Property Name="Destination[3].parent" Type="Str">{B600E0D4-53EB-4A91-898B-C7F3E3DCF68B}</Property>
+				<Property Name="Destination[3].tag" Type="Str">{A4A626BE-DDDD-491C-BEB5-D1A88296BFA8}</Property>
+				<Property Name="Destination[3].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[3].unlock" Type="Bool">true</Property>
+				<Property Name="Destination[4].name" Type="Str">SwitchControl</Property>
+				<Property Name="Destination[4].parent" Type="Str">{B600E0D4-53EB-4A91-898B-C7F3E3DCF68B}</Property>
+				<Property Name="Destination[4].tag" Type="Str">{6BCA9E0C-CB06-402A-8F7C-2254B73B1EDB}</Property>
+				<Property Name="Destination[4].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[4].unlock" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
 				<Property Name="DistPart[0].productID" Type="Str">{04FA86DB-2E87-4191-B966-8BE674BD6BA7}</Property>
 				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2014 SP1 f11 (64-bit)</Property>
@@ -423,12 +452,12 @@
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">Personal use</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/RC Trains Server/RC Trains Server Installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">../IR-ATC/builds/IR-ATC</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">RC Trains Server Installer</Property>
-				<Property Name="INST_defaultDir" Type="Str">{4D2181AE-F3D8-4856-9CDA-A75A850EEA58}</Property>
-				<Property Name="INST_productName" Type="Str">RC Trains Server</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.0</Property>
+				<Property Name="INST_buildSpecName" Type="Str">IR-ATC Installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{6BCA9E0C-CB06-402A-8F7C-2254B73B1EDB}</Property>
+				<Property Name="INST_productName" Type="Str">IR-ATC</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.5</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">14018027</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Personal use</Property>
@@ -440,6 +469,77 @@
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
 				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
 				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{4D2181AE-F3D8-4856-9CDA-A75A850EEA58}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{4D2181AE-F3D8-4856-9CDA-A75A850EEA58}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">IR-ATC.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">IR-ATC</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">IR-ATC</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{AF25B1A4-2A1F-4EC8-8F0C-E0E45F82142D}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">IR-ATC</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/IR-ATC</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="Source[1].dest" Type="Str">{6BCA9E0C-CB06-402A-8F7C-2254B73B1EDB}</Property>
+				<Property Name="Source[1].name" Type="Str">.shrc</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/OC Files/SwitchControl/.shrc</Property>
+				<Property Name="Source[1].type" Type="Str">File</Property>
+				<Property Name="Source[2].dest" Type="Str">{6BCA9E0C-CB06-402A-8F7C-2254B73B1EDB}</Property>
+				<Property Name="Source[2].name" Type="Str">ControlSwitch.lua</Property>
+				<Property Name="Source[2].tag" Type="Ref">/My Computer/OC Files/SwitchControl/ControlSwitch.lua</Property>
+				<Property Name="Source[2].type" Type="Str">File</Property>
+				<Property Name="Source[3].dest" Type="Str">{A4A626BE-DDDD-491C-BEB5-D1A88296BFA8}</Property>
+				<Property Name="Source[3].name" Type="Str">.shrc</Property>
+				<Property Name="Source[3].tag" Type="Ref">/My Computer/OC Files/TrainControl/.shrc</Property>
+				<Property Name="Source[3].type" Type="Str">File</Property>
+				<Property Name="Source[4].dest" Type="Str">{A4A626BE-DDDD-491C-BEB5-D1A88296BFA8}</Property>
+				<Property Name="Source[4].name" Type="Str">TrainControl.lua</Property>
+				<Property Name="Source[4].tag" Type="Ref">/My Computer/OC Files/TrainControl/TrainControl.lua</Property>
+				<Property Name="Source[4].type" Type="Str">File</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
+			</Item>
+			<Item Name="IR-ATC" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{A2AB9038-A58F-4E51-BFA9-73886297AF73}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{1E88D36C-2F5D-4DF4-BA85-62D5ED4AA01D}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{31FBFE90-97D5-437C-9C4B-BDC7DCA1CEC9}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">IR-ATC</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{F10C5506-3085-42E8-9692-79E869DE556E}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">IR-ATC.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/IR-ATC.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/ATC Icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{541D735E-4F28-4272-9EF6-CCB95800B41B}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Personal use</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">IR-ATC</Property>
+				<Property Name="TgtF_internalName" Type="Str">IR-ATC</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Personal use</Property>
+				<Property Name="TgtF_productName" Type="Str">IR-ATC</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{AF25B1A4-2A1F-4EC8-8F0C-E0E45F82142D}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">IR-ATC.exe</Property>
 			</Item>
 		</Item>
 	</Item>
