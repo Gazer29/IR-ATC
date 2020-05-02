@@ -28,7 +28,7 @@
 </String>
 <I32>
 <Name>Iteration</Name>
-<Val>0</Val>
+<Val>1</Val>
 </I32>
 <Array>
 <Name>Posit Array</Name>
@@ -345,7 +345,7 @@
 </String>
 <I32>
 <Name>Iteration</Name>
-<Val>0</Val>
+<Val>1</Val>
 </I32>
 <Array>
 <Name>Posit Array</Name>
@@ -483,7 +483,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>1747.18800000000010</Val>
+<Val>1747.17100000000005</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -499,7 +499,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>1748.43900000000008</Val>
+<Val>1747.17100000000005</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
