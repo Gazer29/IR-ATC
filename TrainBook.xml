@@ -28,7 +28,7 @@
 </String>
 <I32>
 <Name>Iteration</Name>
-<Val>0</Val>
+<Val>1</Val>
 </I32>
 <Array>
 <Name>Posit Array</Name>
@@ -38,7 +38,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>-45.50000000000000</Val>
+<Val>-41.62800000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -46,7 +46,7 @@
 </DBL>
 <DBL>
 <Name>Z</Name>
-<Val>33.69100000000000</Val>
+<Val>58.58500000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -54,7 +54,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>-45.50000000000000</Val>
+<Val>-41.62800000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -62,7 +62,7 @@
 </DBL>
 <DBL>
 <Name>Z</Name>
-<Val>31.08800000000000</Val>
+<Val>58.58500000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -70,7 +70,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>-45.50000000000000</Val>
+<Val>-41.62800000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -78,7 +78,7 @@
 </DBL>
 <DBL>
 <Name>Z</Name>
-<Val>28.90700000000000</Val>
+<Val>58.58500000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -86,7 +86,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>-45.50600000000000</Val>
+<Val>-41.62800000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -94,7 +94,7 @@
 </DBL>
 <DBL>
 <Name>Z</Name>
-<Val>27.09400000000000</Val>
+<Val>58.58500000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -102,7 +102,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>-45.56200000000000</Val>
+<Val>-41.62800000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -110,7 +110,7 @@
 </DBL>
 <DBL>
 <Name>Z</Name>
-<Val>25.59300000000000</Val>
+<Val>58.58500000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -118,7 +118,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>-45.66500000000000</Val>
+<Val>-41.62800000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -126,7 +126,7 @@
 </DBL>
 <DBL>
 <Name>Z</Name>
-<Val>24.34100000000000</Val>
+<Val>58.58500000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -134,7 +134,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>-45.81000000000000</Val>
+<Val>-41.62800000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -142,7 +142,7 @@
 </DBL>
 <DBL>
 <Name>Z</Name>
-<Val>23.31900000000000</Val>
+<Val>58.58500000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -150,7 +150,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>-45.98100000000000</Val>
+<Val>-41.87000000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -158,7 +158,7 @@
 </DBL>
 <DBL>
 <Name>Z</Name>
-<Val>22.43200000000000</Val>
+<Val>58.00000000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -166,7 +166,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>-46.13800000000000</Val>
+<Val>-42.36200000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -174,7 +174,7 @@
 </DBL>
 <DBL>
 <Name>Z</Name>
-<Val>21.77500000000000</Val>
+<Val>56.81100000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -182,7 +182,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>-46.25900000000000</Val>
+<Val>-42.85200000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -190,7 +190,7 @@
 </DBL>
 <DBL>
 <Name>Z</Name>
-<Val>21.32800000000000</Val>
+<Val>55.62800000000000</Val>
 </DBL>
 </Cluster>
 </Array>
@@ -199,11 +199,11 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>throttle</Name>
-<Val>0.51550719523301</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>brake</Name>
-<Val>0.48449280476699</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>horn</Name>
@@ -211,7 +211,7 @@
 </DBL>
 <DBL>
 <Name>wait</Name>
-<Val>0.50000000000000</Val>
+<Val>2.00000000000000</Val>
 </DBL>
 </Cluster>
 <Array>
@@ -236,7 +236,7 @@
 </EW>
 <U32>
 <Name>Timer</Name>
-<Val>3</Val>
+<Val>2</Val>
 </U32>
 <U32>
 <Name>Set Timer</Name>
@@ -281,11 +281,11 @@
 </Array>
 <DBL>
 <Name>SetSpeed</Name>
-<Val>40.00000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Speed</Name>
-<Val>8.72400000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <Cluster>
 <Name>PathData</Name>
@@ -296,159 +296,39 @@
 </Boolean>
 <Boolean>
 <Name>Same Line +Dir?</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Array>
 <Name>Path</Name>
-<Dimsize>6</Dimsize>
+<Dimsize>0</Dimsize>
 <Cluster>
 <Name>Path</Name>
 <NumElts>5</NumElts>
 <I32>
 <Name>Line Index</Name>
-<Val>2</Val>
+<Val></Val>
 </I32>
 <I32>
 <Name>Line Pos Index </Name>
-<Val>37</Val>
+<Val></Val>
 </I32>
 <I32>
 <Name>Prev Index </Name>
-<Val>2</Val>
+<Val></Val>
 </I32>
 <I32>
 <Name>Prev Pos Index</Name>
-<Val>98</Val>
+<Val></Val>
 </I32>
 <DBL>
 <Name>Distance</Name>
-<Val>117.24599999999999</Val>
-</DBL>
-</Cluster>
-<Cluster>
-<Name>Path</Name>
-<NumElts>5</NumElts>
-<I32>
-<Name>Line Index</Name>
-<Val>5</Val>
-</I32>
-<I32>
-<Name>Line Pos Index </Name>
-<Val>0</Val>
-</I32>
-<I32>
-<Name>Prev Index </Name>
-<Val>5</Val>
-</I32>
-<I32>
-<Name>Prev Pos Index</Name>
-<Val>116</Val>
-</I32>
-<DBL>
-<Name>Distance</Name>
-<Val>66.05160298471377</Val>
-</DBL>
-</Cluster>
-<Cluster>
-<Name>Path</Name>
-<NumElts>5</NumElts>
-<I32>
-<Name>Line Index</Name>
-<Val>0</Val>
-</I32>
-<I32>
-<Name>Line Pos Index </Name>
-<Val>72</Val>
-</I32>
-<I32>
-<Name>Prev Index </Name>
-<Val>0</Val>
-</I32>
-<I32>
-<Name>Prev Pos Index</Name>
-<Val>85</Val>
-</I32>
-<DBL>
-<Name>Distance</Name>
-<Val>22.75200000000001</Val>
-</DBL>
-</Cluster>
-<Cluster>
-<Name>Path</Name>
-<NumElts>5</NumElts>
-<I32>
-<Name>Line Index</Name>
-<Val>4</Val>
-</I32>
-<I32>
-<Name>Line Pos Index </Name>
-<Val>0</Val>
-</I32>
-<I32>
-<Name>Prev Index </Name>
-<Val>4</Val>
-</I32>
-<I32>
-<Name>Prev Pos Index</Name>
-<Val>116</Val>
-</I32>
-<DBL>
-<Name>Distance</Name>
-<Val>56.29640835376161</Val>
-</DBL>
-</Cluster>
-<Cluster>
-<Name>Path</Name>
-<NumElts>5</NumElts>
-<I32>
-<Name>Line Index</Name>
-<Val>0</Val>
-</I32>
-<I32>
-<Name>Line Pos Index </Name>
-<Val>11</Val>
-</I32>
-<I32>
-<Name>Prev Index </Name>
-<Val>0</Val>
-</I32>
-<I32>
-<Name>Prev Pos Index</Name>
-<Val>36</Val>
-</I32>
-<DBL>
-<Name>Distance</Name>
-<Val>39.93800000000000</Val>
-</DBL>
-</Cluster>
-<Cluster>
-<Name>Path</Name>
-<NumElts>5</NumElts>
-<I32>
-<Name>Line Index</Name>
-<Val>3</Val>
-</I32>
-<I32>
-<Name>Line Pos Index </Name>
-<Val>0</Val>
-</I32>
-<I32>
-<Name>Prev Index </Name>
-<Val>3</Val>
-</I32>
-<I32>
-<Name>Prev Pos Index</Name>
-<Val>116</Val>
-</I32>
-<DBL>
-<Name>Distance</Name>
-<Val>71.07567873509311</Val>
+<Val></Val>
 </DBL>
 </Cluster>
 </Array>
 <DBL>
 <Name>Distance to Dest</Name>
-<Val>373.35969007356846</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 </Cluster>
 </Cluster>
