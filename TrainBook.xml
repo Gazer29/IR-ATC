@@ -28,7 +28,7 @@
 </String>
 <I32>
 <Name>Iteration</Name>
-<Val>0</Val>
+<Val>1</Val>
 </I32>
 <Array>
 <Name>Posit Array</Name>
@@ -38,7 +38,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>-39.50000000000000</Val>
+<Val>-102.23399999999999</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -46,7 +46,7 @@
 </DBL>
 <DBL>
 <Name>Z</Name>
-<Val>82.07800000000000</Val>
+<Val>148.41600000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -54,7 +54,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>-39.50000000000000</Val>
+<Val>-101.97199999999999</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -62,7 +62,7 @@
 </DBL>
 <DBL>
 <Name>Z</Name>
-<Val>82.07800000000000</Val>
+<Val>149.77799999999999</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -70,7 +70,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>-39.50000000000000</Val>
+<Val>-101.66400000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -78,7 +78,7 @@
 </DBL>
 <DBL>
 <Name>Z</Name>
-<Val>82.07800000000000</Val>
+<Val>150.94200000000001</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -86,7 +86,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>-39.50000000000000</Val>
+<Val>-101.37099999999999</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -94,7 +94,7 @@
 </DBL>
 <DBL>
 <Name>Z</Name>
-<Val>82.07800000000000</Val>
+<Val>151.83500000000001</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -102,7 +102,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>-39.50000000000000</Val>
+<Val>-101.13700000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -110,7 +110,7 @@
 </DBL>
 <DBL>
 <Name>Z</Name>
-<Val>82.07800000000000</Val>
+<Val>152.46100000000001</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -118,7 +118,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>-39.50000000000000</Val>
+<Val>-100.90700000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -126,7 +126,7 @@
 </DBL>
 <DBL>
 <Name>Z</Name>
-<Val>82.07800000000000</Val>
+<Val>153.01499999999999</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -134,7 +134,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>-39.50000000000000</Val>
+<Val>-100.65700000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -142,7 +142,7 @@
 </DBL>
 <DBL>
 <Name>Z</Name>
-<Val>82.05400000000000</Val>
+<Val>153.56999999999999</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -150,7 +150,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>-39.50000000000000</Val>
+<Val>-100.34999999999999</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -158,7 +158,7 @@
 </DBL>
 <DBL>
 <Name>Z</Name>
-<Val>81.93899999999999</Val>
+<Val>154.19100000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -166,7 +166,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>-39.50000000000000</Val>
+<Val>-99.81600000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -174,7 +174,7 @@
 </DBL>
 <DBL>
 <Name>Z</Name>
-<Val>81.54200000000000</Val>
+<Val>155.15199999999999</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -182,7 +182,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>-39.50000000000000</Val>
+<Val>-98.98200000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -190,7 +190,7 @@
 </DBL>
 <DBL>
 <Name>Z</Name>
-<Val>80.91700000000000</Val>
+<Val>156.43899999999999</Val>
 </DBL>
 </Cluster>
 </Array>
@@ -222,6 +222,67 @@
 <NumElts>8</NumElts>
 <String>
 <Name>Desination</Name>
+<Val>Station5</Val>
+</String>
+<EW>
+<Name>DestControls</Name>
+<Choice>Tracker</Choice>
+<Choice>Manual</Choice>
+<Choice>Stop</Choice>
+<Choice>Station DateTime</Choice>
+<Choice>Station Timer</Choice>
+<Choice>Maintain</Choice>
+<Val>4</Val>
+</EW>
+<U32>
+<Name>Timer</Name>
+<Val>19</Val>
+</U32>
+<U32>
+<Name>Set Timer</Name>
+<Val>20</Val>
+</U32>
+<Timestamp>
+<Name>Time Stamp</Name>
+<Cluster>
+<Name></Name>
+<NumElts>4</NumElts>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+</Timestamp>
+<Boolean>
+<Name>Repeat?</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>Optional Data</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Distance</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>DestCluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Desination</Name>
 <Val>Station1</Val>
 </String>
 <EW>
@@ -236,7 +297,7 @@
 </EW>
 <U32>
 <Name>Timer</Name>
-<Val>12</Val>
+<Val>20</Val>
 </U32>
 <U32>
 <Name>Set Timer</Name>
@@ -278,67 +339,6 @@
 <Val>3.27199999999999</Val>
 </DBL>
 </Cluster>
-<Cluster>
-<Name>DestCluster</Name>
-<NumElts>8</NumElts>
-<String>
-<Name>Desination</Name>
-<Val>Station5</Val>
-</String>
-<EW>
-<Name>DestControls</Name>
-<Choice>Tracker</Choice>
-<Choice>Manual</Choice>
-<Choice>Stop</Choice>
-<Choice>Station DateTime</Choice>
-<Choice>Station Timer</Choice>
-<Choice>Maintain</Choice>
-<Val>4</Val>
-</EW>
-<U32>
-<Name>Timer</Name>
-<Val>20</Val>
-</U32>
-<U32>
-<Name>Set Timer</Name>
-<Val>20</Val>
-</U32>
-<Timestamp>
-<Name>Time Stamp</Name>
-<Cluster>
-<Name></Name>
-<NumElts>4</NumElts>
-<I32>
-<Name></Name>
-<Val>0</Val>
-</I32>
-<I32>
-<Name></Name>
-<Val>0</Val>
-</I32>
-<I32>
-<Name></Name>
-<Val>0</Val>
-</I32>
-<I32>
-<Name></Name>
-<Val>0</Val>
-</I32>
-</Cluster>
-</Timestamp>
-<Boolean>
-<Name>Repeat?</Name>
-<Val>1</Val>
-</Boolean>
-<String>
-<Name>Optional Data</Name>
-<Val></Val>
-</String>
-<DBL>
-<Name>Distance</Name>
-<Val>1.68800000000000</Val>
-</DBL>
-</Cluster>
 </Array>
 <DBL>
 <Name>SetSpeed</Name>
@@ -346,7 +346,7 @@
 </DBL>
 <DBL>
 <Name>Speed</Name>
-<Val>0.00000000000000</Val>
+<Val>4.81623919671776</Val>
 </DBL>
 <Cluster>
 <Name>PathData</Name>
@@ -367,29 +367,29 @@
 <NumElts>5</NumElts>
 <I32>
 <Name>Line Index</Name>
-<Val>6</Val>
+<Val>0</Val>
 </I32>
 <I32>
 <Name>Line Pos Index </Name>
-<Val>12</Val>
+<Val>55</Val>
 </I32>
 <I32>
 <Name>Prev Index </Name>
-<Val>6</Val>
+<Val>0</Val>
 </I32>
 <I32>
 <Name>Prev Pos Index</Name>
-<Val>14</Val>
+<Val>86</Val>
 </I32>
 <DBL>
 <Name>Distance</Name>
-<Val>3.27199999999999</Val>
+<Val>54.27600000000000</Val>
 </DBL>
 </Cluster>
 </Array>
 <DBL>
 <Name>Distance to Dest</Name>
-<Val>3.27199999999999</Val>
+<Val>54.27600000000000</Val>
 </DBL>
 </Cluster>
 </Cluster>
